@@ -4,7 +4,9 @@ I learned a lot from it.  The best generators can produce all primes up to 1 bil
 This algorhithm can produce all primes up to 10 million in about a second on the average PC.
 
 Usage:
+
 engine = PrimeEngine()
+
 engine.Generate(1000)
 
 You can access how long it took to complete the calculation through engine.time
