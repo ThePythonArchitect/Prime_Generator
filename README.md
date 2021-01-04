@@ -7,7 +7,8 @@ Usage:
 
 engine = PrimeEngine()
 
-engine.Generate(1000)
+engine.Generate(1000) #generate all primes up to 1000
 
 You can access how long it took to complete the calculation through engine.time
+
 The primes are accessed by engine.primes
