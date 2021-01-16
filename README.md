@@ -12,3 +12,8 @@ engine.Generate(1000) #generate all primes up to 1000
 You can access how long it took to complete the calculation through engine.time
 
 The primes are accessed by engine.primes
+
+
+Benchmark:
+
+Using a Intel Xeon E5-1245 @3.3GHz with 12.0 GB of RAM, it was able to calculate all primes up to 1 billion in about 2 minutes and 50 seconds.
